@@ -1,6 +1,6 @@
 # 経路案内をURLにする
 
-結論:
+結論:  
 `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${value}&travelmode=driving`
 
 説明:
@@ -13,10 +13,8 @@
 
 ## スタート地点
 
-今回は現在地をスタート地点としているため、現在地を取得する必要があります。
-
-標準のJavaScriptのAPIに備わっているためそちらを使います。
-
+今回は現在地をスタート地点としているため、現在地を取得する必要があります。  
+標準のJavaScriptのAPIに備わっているためそちらを使います。  
 [詳しくはJavascript公式MDNをご確認ください。](https://developer.mozilla.org/ja/docs/Web/API/Geolocation_API)
 
 ``` react
