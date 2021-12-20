@@ -13,9 +13,13 @@
 
 ## スタート地点
 
-今回は現在地をスタート地点としているため、現在地を取得する必要があります。  
-標準のJavaScriptのAPIに備わっているためそちらを使います。  
+今回は現在地をスタート地点としているため、現在地を取得する必要があります。
+
+標準のJavaScriptのAPIに備わっているためそちらを使います。
+
 [詳しくはJavascript公式MDNをご確認ください。](https://developer.mozilla.org/ja/docs/Web/API/Geolocation_API)
+
+⚠使用する場合は現在地の取得を許可する必要があります
 
 ``` react
  navigator.geolocation.getCurrentPosition((position) => {
